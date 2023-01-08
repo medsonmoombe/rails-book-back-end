@@ -1,5 +1,5 @@
 class BookSerializer 
   include JSONAPI::Serializer
-  attributes :id, :title, :author, :description, :image
+  attributes :id, :title, :author, :description, :image, file
   
 end
