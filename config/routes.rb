@@ -4,4 +4,5 @@ Rails.application.routes.draw do
     resources :books, only: %I[show new create destroy]
   end
   resources :books, only: %I[ index]
+  resources :rating, only: %I[ index create]
 end
